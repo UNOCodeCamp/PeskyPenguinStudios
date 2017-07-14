@@ -16,7 +16,7 @@ renderer.draw = function()
 renderer.drawGameOver = function()
 {
 	//fade viewport
-	renderer.ctx.fillStyle = "rgba(255,255,255,.01)";
+	renderer.ctx.fillStyle = "rgba(255,0,0,.01)";
 	renderer.ctx.fillRect(0,0,viewport.width, viewport.height);
 	//print Game Over
 	renderer.ctx.fillStyle = "rgb(255, 0, 0)"; //set to white
