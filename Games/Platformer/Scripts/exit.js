@@ -8,7 +8,7 @@ function Exit()
     this.width = 32;
     this.height = 32;
     this.image = new Image();
-    this.image.src = "";
+    this.image.src = "Assets/very_original_engloo_platypenguin.png";
 
     this.draw = function()
     {

@@ -1,12 +1,12 @@
 player = new Object();
 
-player.x = null;
-player.y = null;
+player.x = viewport.width/2;
+player.y = viewport.height/2;
 player.image = new Image();
-player.image.src = "";
-player.width = 32;
-player.height = 32;
-
+player.image.src = "Assets/shooty_doggo.png";
+player.width = 48;
+player.height = 48;
+player.isAttacking = false;
 
 player.draw = function()
 {
@@ -31,5 +31,5 @@ player.move = function(x, y)
 
 player.attack = function()
 {
-
+	player.isAttacking = true
 };

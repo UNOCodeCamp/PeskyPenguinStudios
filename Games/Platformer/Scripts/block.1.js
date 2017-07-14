@@ -6,7 +6,7 @@ function Block(x,y,width,height)
     this.width = width;
     this.height = height;
     this.image = new Image();
-    this.image.src = "Assets/very_original_snow_grass_platypenguin.png"
+    this.image.src = "Assets/very_original_dirt_platypenguin.png"
 
     this.draw = function()
     {
