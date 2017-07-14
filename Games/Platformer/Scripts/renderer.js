@@ -23,7 +23,7 @@ renderer.drawGameOver = function()
 	renderer.ctx.font = "42px Helvetica";  //set the font
 	renderer.ctx.textAlign = "center"; //set to left
 	renderer.ctx.textBaseline = "center"; //set to top
-	renderer.ctx.fillText("Game Over!", viewport.width/2, viewport.height/2); //set the contents
+	renderer.ctx.fillText("Game Over!", renderer.width*16, renderer.height*16); //set the contents
 
 	renderer.canvas.style="cursor: auto;";
 }
